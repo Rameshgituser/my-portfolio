@@ -303,3 +303,15 @@ section.hero-section{
 .contact-section h4 > span{
     color: var(--primary);
 }
+
+ /*Footer page*/
+
+ footer{
+    background-color: var(--dark-primary);
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 10px;
+ }
+
+ 
