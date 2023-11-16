@@ -31,6 +31,8 @@ background-color: var(--dark-primary);
   justify-content: space-evenly;
   color: #fff;
   align-items: center;
+  position: fixed;
+  width: 100%;
 }
 h2{
     cursor: pointer;
