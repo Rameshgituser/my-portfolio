@@ -114,7 +114,9 @@ section.hero-section{
     font-size: 48px;
     font-weight: 900;
 }
-
+.hero-section > h4 span{
+    color: var(--primary);
+}
 .hero-section--desc{
     color: #c4c4c4;
 }
@@ -332,6 +334,7 @@ section.hero-section{
 
    section.hero-section{
     flex-direction: column;
+    padding: 10px 20px;
 
    }
    section.hero-section img{
@@ -364,6 +367,6 @@ section.hero-section{
     }
    footer{
     padding: 10px 0;
-    font-size: 14px;
+    font-size: 12px;
    }
   }
