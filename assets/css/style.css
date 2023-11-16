@@ -16,6 +16,10 @@ body{
     font-family: 'Nunito sans',sans-serif;
 }
 
+html{
+     scroll-behavior: smooth; 
+}
+
 a{
     list-style: none;
 }
@@ -314,4 +318,52 @@ section.hero-section{
     padding-top: 10px;
  }
 
- 
+ /*Media Queries for responsive*/
+
+ @media only screen and (max-width: 600px) {
+   header{
+    flex-direction: column;
+    /* padding: 30px; */
+   }
+
+   header > *{
+      margin-bottom: 10px;
+   }
+
+   section.hero-section{
+    flex-direction: column;
+
+   }
+   section.hero-section img{
+
+    margin-top: 10px;
+    margin-right: 30px;
+
+   }
+
+     /*about- section*/
+
+   section.about-section{
+    flex-direction: column;
+   }
+
+    /*work-section*/
+   .work-section-items{
+    flex-direction: column;
+    align-items: center;
+   }
+   .work-section-box{
+    margin-bottom: 10px;
+    max-width: 100%;
+   }
+
+    /*contact-section*/
+
+    .contact-section form input,textarea{
+        width: 100%;
+    }
+   footer{
+    padding: 10px 0;
+    font-size: 14px;
+   }
+  }
