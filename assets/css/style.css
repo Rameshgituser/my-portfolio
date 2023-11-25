@@ -169,7 +169,7 @@ section.hero-section{
      align-items: center;
      padding: 100px 150px 0px 200px;
      color: #fff;
-}
+          }
 
 .hero-section--tittle{
     font-size: 48px;
@@ -224,6 +224,7 @@ section.hero-section{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
 
 }
 .about-section img{
@@ -280,6 +281,7 @@ section.hero-section{
     background-color: var(--dark-primary);
     text-align: center;
     padding: 50px;
+    height: 100vh;
    
 }       
 

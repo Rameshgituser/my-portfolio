@@ -23,7 +23,7 @@ navToggle.addEventListener('click',()=>{
             let scroll=window.pageYOffset || document.documentElement.scrollTop;
              console.log(scroll);
 
-             if(scroll<=navheight){
+             if(scroll>=navheight){
               headerdom.classList.add('.navbar-fixed')
              }
              else{
