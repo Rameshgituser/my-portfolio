@@ -11,3 +11,24 @@ navToggle.addEventListener('click',()=>{
      })
 
     });
+
+    function fixednavbar(){
+         
+        const headerdom= document.querySelector('.navbar-fixed');
+          const navheight=headerdom.clientHeight + 50;
+          console.log(navheight);
+               
+         window.addEventListener('scroll',()=>{
+
+            let scroll=window.pageYOffset || document.documentElement.scrollTop;
+             console.log(scroll);
+
+             if(scroll<=navheight){
+              headerdom.classList.add('.navbar-fixed')
+             }
+             else{
+              headerdom.classList.remove('.navbar-fixed');
+             }
+          })
+    }
+    fixednavbar()

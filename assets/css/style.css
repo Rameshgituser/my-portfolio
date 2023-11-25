@@ -41,12 +41,25 @@ background-color: var(--dark-primary);
   color: #fff;
   align-items: center;
   gap: 20px 20px;
-  animation: 1s ease-in-out 0s 1 slidefromleft;
+  animation: 1s ease-in-out 0s 1 slidefromleft; 
   /* position: fixed;
   width: 100%; */
 }
- 
 
+.navbar-fixed{
+
+     position: fixed;
+     width: 100%;
+     background-color:var(--dark-secondary);
+     color: #fff;
+     top: -1;
+     left: 0;
+     right: 0;
+     z-index: 999;
+     
+
+}
+ 
 
  .nav-toggle{
     display: none;
@@ -56,6 +69,7 @@ background-color: var(--dark-primary);
     border-radius: 2px;
     margin-left: 120px;
  }
+ 
 header h2{
     cursor: pointer;
     font-size: 20px;
@@ -90,6 +104,7 @@ ul > li{
     margin-right: 15px;
 }
 
+
 ul li a{
     text-decoration: none;
     color:#fff
@@ -100,9 +115,7 @@ ul li a:hover{
      color: var(--primary); 
      transition: all 0.3s;
 }
-header button{
-    display: none;
-}
+
 
  /*buttons*/
 
@@ -451,12 +464,19 @@ section.hero-section{
     animation: none;
     /* padding: 30px; */
    }
+
+   header button{
+     display: none;
+   }
    header .nav-toggle{
     display: block;
     font-size: 1rem;
     color:#fff;
     padding: 14px;
    }
+   header .nav-toggle > i{
+    width: 50px;
+ }
    header .nav-toggle:hover{
     color: var(--primary);
     transition: all 0.3s ease;
@@ -476,6 +496,7 @@ section.hero-section{
         display: block;
         top:64px;
         text-align: center;
+        transition: all 0.3s ease-in-out;
     }
     .hidden{
         display: none;
@@ -545,3 +566,4 @@ section.hero-section{
     font-size: 12px;
    }
   }
+
