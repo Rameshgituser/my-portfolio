@@ -183,6 +183,9 @@ section.hero-section{
 .hero-section--desc{
     color: #c4c4c4;
 }
+.hero-buttons a{
+    text-decoration: none;
+}
 
 .social-icons{
     margin:20px 0;
