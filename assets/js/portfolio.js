@@ -9,10 +9,10 @@ navToggle.addEventListener('click',changemenustate);
       const navicon=document.querySelectorAll('.nav-icon');
       /*show menu */
     headermenu.classList.toggle("show");
-    
     navicon.forEach(icon=>{
        icon.classList.toggle("hidden");
     })
+      
     }
 
     function fixednavbar(){
